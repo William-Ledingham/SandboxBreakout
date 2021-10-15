@@ -105,4 +105,15 @@ Wire Wire Line
 	2700 1950 3600 1950
 Text Label 3050 1700 0    50   ~ 0
 CH3
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 616AC14C
+P 2500 2250
+F 0 "J?" H 2600 2200 50  0000 C CNN
+F 1 "Conn_01x03" H 2800 2300 50  0000 C CNN
+F 2 "" H 2500 2250 50  0001 C CNN
+F 3 "~" H 2500 2250 50  0001 C CNN
+	1    2500 2250
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
