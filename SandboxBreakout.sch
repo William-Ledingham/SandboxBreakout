@@ -32,10 +32,10 @@ Wire Wire Line
 Wire Wire Line
 	2700 1350 3600 1350
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J2
 U 1 1 616A49A7
 P 2500 1450
-F 0 "J?" H 2600 1400 50  0000 C CNN
+F 0 "J2" H 2600 1400 50  0000 C CNN
 F 1 "Conn_01x03" H 2800 1500 50  0000 C CNN
 F 2 "" H 2500 1450 50  0001 C CNN
 F 3 "~" H 2500 1450 50  0001 C CNN
@@ -43,10 +43,10 @@ F 3 "~" H 2500 1450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J7
 U 1 1 616A2D49
 P 3800 1450
-F 0 "J?" H 3880 1492 50  0000 L CNN
+F 0 "J7" H 3880 1492 50  0000 L CNN
 F 1 "Conn_01x03" H 3880 1401 50  0000 L CNN
 F 2 "" H 3800 1450 50  0001 C CNN
 F 3 "~" H 3800 1450 50  0001 C CNN
@@ -54,10 +54,10 @@ F 3 "~" H 3800 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J1
 U 1 1 616A1CEF
 P 2500 1050
-F 0 "J?" H 2600 1000 50  0000 C CNN
+F 0 "J1" H 2600 1000 50  0000 C CNN
 F 1 "Conn_01x03" H 2800 1100 50  0000 C CNN
 F 2 "" H 2500 1050 50  0001 C CNN
 F 3 "~" H 2500 1050 50  0001 C CNN
@@ -65,10 +65,10 @@ F 3 "~" H 2500 1050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J6
 U 1 1 616A09CD
 P 3800 1050
-F 0 "J?" H 3880 1092 50  0000 L CNN
+F 0 "J6" H 3880 1092 50  0000 L CNN
 F 1 "Conn_01x03" H 3880 1001 50  0000 L CNN
 F 2 "" H 3800 1050 50  0001 C CNN
 F 3 "~" H 3800 1050 50  0001 C CNN
@@ -76,10 +76,10 @@ F 3 "~" H 3800 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J3
 U 1 1 616A9CD6
 P 2500 1850
-F 0 "J?" H 2600 1800 50  0000 C CNN
+F 0 "J3" H 2600 1800 50  0000 C CNN
 F 1 "Conn_01x03" H 2800 1900 50  0000 C CNN
 F 2 "" H 2500 1850 50  0001 C CNN
 F 3 "~" H 2500 1850 50  0001 C CNN
@@ -87,10 +87,10 @@ F 3 "~" H 2500 1850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J8
 U 1 1 616A9FAA
 P 3800 1850
-F 0 "J?" H 3880 1892 50  0000 L CNN
+F 0 "J8" H 3880 1892 50  0000 L CNN
 F 1 "Conn_01x03" H 3880 1801 50  0000 L CNN
 F 2 "" H 3800 1850 50  0001 C CNN
 F 3 "~" H 3800 1850 50  0001 C CNN
@@ -106,14 +106,38 @@ Wire Wire Line
 Text Label 3050 1700 0    50   ~ 0
 CH3
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J4
 U 1 1 616AC14C
 P 2500 2250
-F 0 "J?" H 2600 2200 50  0000 C CNN
+F 0 "J4" H 2600 2200 50  0000 C CNN
 F 1 "Conn_01x03" H 2800 2300 50  0000 C CNN
 F 2 "" H 2500 2250 50  0001 C CNN
 F 3 "~" H 2500 2250 50  0001 C CNN
 	1    2500 2250
 	-1   0    0    1   
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J9
+U 1 1 616C2167
+P 3800 3200
+F 0 "J9" H 3880 3192 50  0000 L CNN
+F 1 "Conn_01x02" H 3880 3101 50  0000 L CNN
+F 2 "" H 3800 3200 50  0001 C CNN
+F 3 "~" H 3800 3200 50  0001 C CNN
+	1    3800 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J5
+U 1 1 616C163A
+P 2500 3200
+F 0 "J5" H 2580 3192 50  0000 L CNN
+F 1 "Conn_01x02" H 2580 3101 50  0000 L CNN
+F 2 "" H 2500 3200 50  0001 C CNN
+F 3 "~" H 2500 3200 50  0001 C CNN
+	1    2500 3200
+	1    0    0    -1  
+$EndComp
+Text Notes 2950 3000 0    59   ~ 0
+BUZZER
 $EndSCHEMATC
