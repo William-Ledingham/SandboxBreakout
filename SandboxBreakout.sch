@@ -462,11 +462,11 @@ Wire Wire Line
 Text Label 2900 20650 0    79   ~ 0
 ADC6.6V
 Wire Wire Line
-	2700 2400 3600 2400
+	2700 2400 2800 2400
 Wire Wire Line
-	2700 1950 3600 1950
+	2700 1950 2800 1950
 Wire Wire Line
-	2700 1550 3600 1550
+	2700 1550 2800 1550
 $Comp
 L Connector_Generic:Conn_01x03 Servo8
 U 1 1 6174B0C8
@@ -523,7 +523,7 @@ F 3 "~" H 3800 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2700 1150 3600 1150
+	2700 1150 2800 1150
 $Comp
 L Connector_Generic:Conn_01x03 Servo2
 U 1 1 616A09CD
@@ -562,9 +562,9 @@ AUX5
 Text Label 3050 3050 0    50   ~ 0
 AUX6
 Wire Wire Line
-	2700 3300 3600 3300
+	2700 3300 2800 3300
 Wire Wire Line
-	2700 2850 3600 2850
+	2700 2850 2800 2850
 $Comp
 L Connector_Generic:Conn_01x03 Servo12
 U 1 1 619B701B
@@ -618,11 +618,11 @@ MAIN3
 Text Label 3050 4750 0    50   ~ 0
 MAIN4
 Wire Wire Line
-	2700 5000 3600 5000
+	2700 5000 2800 5000
 Wire Wire Line
-	2700 4550 3600 4550
+	2700 4550 2800 4550
 Wire Wire Line
-	2700 4150 3600 4150
+	2700 4150 2800 4150
 $Comp
 L Connector_Generic:Conn_01x03 Servo20
 U 1 1 619D057A
@@ -679,7 +679,7 @@ F 3 "~" H 3800 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2700 3750 3600 3750
+	2700 3750 2800 3750
 $Comp
 L Connector_Generic:Conn_01x03 Servo14
 U 1 1 619D059A
@@ -718,9 +718,9 @@ MAIN5
 Text Label 3050 5650 0    50   ~ 0
 MAIN6
 Wire Wire Line
-	2700 5900 3600 5900
+	2700 5900 2800 5900
 Wire Wire Line
-	2700 5450 3600 5450
+	2700 5450 2800 5450
 $Comp
 L Connector_Generic:Conn_01x03 Servo24
 U 1 1 619D05B4
@@ -770,9 +770,9 @@ MAIN7
 Text Label 3050 6500 0    50   ~ 0
 MAIN8
 Wire Wire Line
-	2700 6750 3600 6750
+	2700 6750 2800 6750
 Wire Wire Line
-	2700 6300 3600 6300
+	2700 6300 2800 6300
 Wire Wire Line
 	2700 6100 3600 6100
 $Comp
@@ -824,9 +824,9 @@ SBUS
 Text Label 3050 7450 0    50   ~ 0
 RCIN
 Wire Wire Line
-	2700 7700 3600 7700
+	2700 7700 2800 7700
 Wire Wire Line
-	2700 7250 3600 7250
+	2700 7250 2800 7250
 $Comp
 L Connector_Generic:Conn_01x03 Servo32
 U 1 1 619F1FBF
@@ -902,35 +902,193 @@ Wire Wire Line
 Wire Wire Line
 	2700 1350 3600 1350
 Wire Wire Line
-	2700 1050 3600 1050
+	2700 2750 2950 2750
 Wire Wire Line
-	2700 1450 3600 1450
+	2700 3200 2950 3200
 Wire Wire Line
-	2700 1850 3600 1850
+	2700 3650 2950 3650
 Wire Wire Line
-	2700 2300 3600 2300
+	2700 4050 2950 4050
 Wire Wire Line
-	2700 2750 3600 2750
+	2700 4450 2950 4450
 Wire Wire Line
-	2700 3200 3600 3200
+	2700 4900 2950 4900
 Wire Wire Line
-	2700 3650 3600 3650
+	2700 5350 2950 5350
 Wire Wire Line
-	2700 4050 3600 4050
+	2700 5800 2950 5800
 Wire Wire Line
-	2700 4450 3600 4450
+	2700 6200 2950 6200
 Wire Wire Line
-	2700 4900 3600 4900
+	2700 6650 2950 6650
 Wire Wire Line
-	2700 5350 3600 5350
+	2700 7150 2950 7150
 Wire Wire Line
-	2700 5800 3600 5800
+	2700 7600 2950 7600
 Wire Wire Line
-	2700 6200 3600 6200
+	2800 1150 2800 1550
+Connection ~ 2800 1150
 Wire Wire Line
-	2700 6650 3600 6650
+	2800 1150 3600 1150
+Connection ~ 2800 1550
 Wire Wire Line
-	2700 7150 3600 7150
+	2800 1550 3600 1550
 Wire Wire Line
-	2700 7600 3600 7600
+	2800 1550 2800 1950
+Connection ~ 2800 1950
+Wire Wire Line
+	2800 1950 3600 1950
+Wire Wire Line
+	2800 2400 2800 1950
+Connection ~ 2800 2400
+Wire Wire Line
+	2800 2400 3600 2400
+Wire Wire Line
+	2800 2400 2800 2850
+Connection ~ 2800 2850
+Wire Wire Line
+	2800 2850 3600 2850
+Wire Wire Line
+	2800 3300 2800 2850
+Connection ~ 2800 3300
+Wire Wire Line
+	2800 3300 3600 3300
+Wire Wire Line
+	2800 3300 2800 3750
+Connection ~ 2800 3750
+Wire Wire Line
+	2800 3750 3600 3750
+Wire Wire Line
+	2800 3750 2800 4150
+Connection ~ 2800 4150
+Wire Wire Line
+	2800 4150 3600 4150
+Wire Wire Line
+	2800 4150 2800 4550
+Connection ~ 2800 4550
+Wire Wire Line
+	2800 4550 3600 4550
+Wire Wire Line
+	2800 4550 2800 5000
+Connection ~ 2800 5000
+Wire Wire Line
+	2800 5000 3600 5000
+Wire Wire Line
+	2800 5000 2800 5450
+Connection ~ 2800 5450
+Wire Wire Line
+	2800 5450 3600 5450
+Wire Wire Line
+	2800 5450 2800 5900
+Connection ~ 2800 5900
+Wire Wire Line
+	2800 5900 3600 5900
+Wire Wire Line
+	2800 5900 2800 6300
+Connection ~ 2800 6300
+Wire Wire Line
+	2800 6300 3600 6300
+Wire Wire Line
+	2800 6300 2800 6750
+Connection ~ 2800 6750
+Wire Wire Line
+	2800 6750 3600 6750
+Wire Wire Line
+	2800 6750 2800 7250
+Connection ~ 2800 7250
+Wire Wire Line
+	2800 7250 3600 7250
+Wire Wire Line
+	2800 7250 2800 7700
+Connection ~ 2800 7700
+Wire Wire Line
+	2800 7700 3600 7700
+Wire Wire Line
+	2950 1050 2950 1450
+Wire Wire Line
+	2700 1050 2950 1050
+Wire Wire Line
+	2950 1050 3600 1050
+Connection ~ 2950 1050
+Wire Wire Line
+	2700 1450 2950 1450
+Wire Wire Line
+	2950 1450 3600 1450
+Connection ~ 2950 1450
+Wire Wire Line
+	2950 1450 2950 1850
+Wire Wire Line
+	2700 1850 2950 1850
+Wire Wire Line
+	2950 1850 3600 1850
+Connection ~ 2950 1850
+Wire Wire Line
+	2950 1850 2950 2300
+Wire Wire Line
+	2700 2300 2950 2300
+Wire Wire Line
+	2950 2300 3600 2300
+Connection ~ 2950 2300
+Wire Wire Line
+	2950 2300 2950 2750
+Connection ~ 2950 2750
+Wire Wire Line
+	2950 2750 3600 2750
+Wire Wire Line
+	2950 2750 2950 3200
+Connection ~ 2950 3200
+Wire Wire Line
+	2950 3200 3600 3200
+Wire Wire Line
+	2950 3200 2950 3650
+Connection ~ 2950 3650
+Wire Wire Line
+	2950 3650 3600 3650
+Wire Wire Line
+	2950 3650 2950 4050
+Connection ~ 2950 4050
+Wire Wire Line
+	2950 4050 3600 4050
+Wire Wire Line
+	2950 4050 2950 4450
+Connection ~ 2950 4450
+Wire Wire Line
+	2950 4450 3600 4450
+Wire Wire Line
+	2950 4450 2950 4900
+Connection ~ 2950 4900
+Wire Wire Line
+	2950 4900 3600 4900
+Wire Wire Line
+	2950 4900 2950 5350
+Connection ~ 2950 5350
+Wire Wire Line
+	2950 5350 3600 5350
+Wire Wire Line
+	2950 5350 2950 5800
+Connection ~ 2950 5800
+Wire Wire Line
+	2950 5800 3600 5800
+Wire Wire Line
+	2950 5800 2950 6200
+Connection ~ 2950 6200
+Wire Wire Line
+	2950 6200 3600 6200
+Wire Wire Line
+	2950 6200 2950 6650
+Connection ~ 2950 6650
+Wire Wire Line
+	2950 6650 3600 6650
+Wire Wire Line
+	2950 6650 2950 7150
+Connection ~ 2950 7150
+Wire Wire Line
+	2950 7150 3600 7150
+Wire Wire Line
+	2950 7150 2950 7600
+Connection ~ 2950 7600
+Wire Wire Line
+	2950 7600 3600 7600
+Text Label 3500 700  0    50   ~ 0
+1-Signal,2-Power,3-Ground
 $EndSCHEMATC
