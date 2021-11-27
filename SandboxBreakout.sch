@@ -468,10 +468,10 @@ Wire Wire Line
 Wire Wire Line
 	2700 1550 2800 1550
 $Comp
-L Connector_Generic:Conn_01x03 Servo8
+L Connector_Generic:Conn_01x03 S8
 U 1 1 6174B0C8
 P 3800 2300
-F 0 "Servo8" H 3880 2342 50  0000 L CNN
+F 0 "S8" H 3880 2342 50  0000 L CNN
 F 1 "Conn_01x03" H 3880 2251 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3800 2300 50  0001 C CNN
 F 3 "~" H 3800 2300 50  0001 C CNN
@@ -479,10 +479,10 @@ F 3 "~" H 3800 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 Servo7
+L Connector_Generic:Conn_01x03 S7
 U 1 1 6174B0C2
 P 2500 2300
-F 0 "Servo7" H 2600 2250 50  0000 C CNN
+F 0 "S7" H 2600 2250 50  0000 C CNN
 F 1 "Conn_01x03" H 2800 2350 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2500 2300 50  0001 C CNN
 F 3 "~" H 2500 2300 50  0001 C CNN
@@ -490,10 +490,10 @@ F 3 "~" H 2500 2300 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 Servo6
+L Connector_Generic:Conn_01x03 S6
 U 1 1 616A9FAA
 P 3800 1850
-F 0 "Servo6" H 3880 1892 50  0000 L CNN
+F 0 "S6" H 3880 1892 50  0000 L CNN
 F 1 "Conn_01x03" H 3880 1801 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3800 1850 50  0001 C CNN
 F 3 "~" H 3800 1850 50  0001 C CNN
@@ -501,10 +501,10 @@ F 3 "~" H 3800 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 Servo5
+L Connector_Generic:Conn_01x03 S5
 U 1 1 616A9CD6
 P 2500 1850
-F 0 "Servo5" H 2600 1800 50  0000 C CNN
+F 0 "S5" H 2600 1800 50  0000 C CNN
 F 1 "Conn_01x03" H 2800 1900 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2500 1850 50  0001 C CNN
 F 3 "~" H 2500 1850 50  0001 C CNN
@@ -512,10 +512,10 @@ F 3 "~" H 2500 1850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 Servo4
+L Connector_Generic:Conn_01x03 S4
 U 1 1 616A2D49
 P 3800 1450
-F 0 "Servo4" H 3880 1492 50  0000 L CNN
+F 0 "S4" H 3880 1492 50  0000 L CNN
 F 1 "Conn_01x03" H 3880 1401 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3800 1450 50  0001 C CNN
 F 3 "~" H 3800 1450 50  0001 C CNN
@@ -525,10 +525,10 @@ $EndComp
 Wire Wire Line
 	2700 1150 2800 1150
 $Comp
-L Connector_Generic:Conn_01x03 Servo2
+L Connector_Generic:Conn_01x03 S2
 U 1 1 616A09CD
 P 3800 1050
-F 0 "Servo2" H 3880 1092 50  0000 L CNN
+F 0 "S2" H 3880 1092 50  0000 L CNN
 F 1 "Conn_01x03" H 3880 1001 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3800 1050 50  0001 C CNN
 F 3 "~" H 3800 1050 50  0001 C CNN
@@ -536,10 +536,10 @@ F 3 "~" H 3800 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 Servo1
+L Connector_Generic:Conn_01x03 S1
 U 1 1 616A1CEF
 P 2500 1050
-F 0 "Servo1" H 2600 1000 50  0000 C CNN
+F 0 "S1" H 2600 1000 50  0000 C CNN
 F 1 "Conn_01x03" H 2800 1100 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2500 1050 50  0001 C CNN
 F 3 "~" H 2500 1050 50  0001 C CNN
@@ -547,10 +547,10 @@ F 3 "~" H 2500 1050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 Servo3
+L Connector_Generic:Conn_01x03 S3
 U 1 1 616A49A7
 P 2500 1450
-F 0 "Servo3" H 2600 1400 50  0000 C CNN
+F 0 "S3" H 2600 1400 50  0000 C CNN
 F 1 "Conn_01x03" H 2800 1500 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2500 1450 50  0001 C CNN
 F 3 "~" H 2500 1450 50  0001 C CNN
@@ -566,10 +566,10 @@ Wire Wire Line
 Wire Wire Line
 	2700 2850 2800 2850
 $Comp
-L Connector_Generic:Conn_01x03 Servo12
+L Connector_Generic:Conn_01x03 S12
 U 1 1 619B701B
 P 3800 3200
-F 0 "Servo12" H 3880 3242 50  0000 L CNN
+F 0 "S12" H 3880 3242 50  0000 L CNN
 F 1 "Conn_01x03" H 3880 3151 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3800 3200 50  0001 C CNN
 F 3 "~" H 3800 3200 50  0001 C CNN
@@ -577,10 +577,10 @@ F 3 "~" H 3800 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 Servo11
+L Connector_Generic:Conn_01x03 S11
 U 1 1 619B7021
 P 2500 3200
-F 0 "Servo11" H 2600 3150 50  0000 C CNN
+F 0 "S11" H 2600 3150 50  0000 C CNN
 F 1 "Conn_01x03" H 2800 3250 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2500 3200 50  0001 C CNN
 F 3 "~" H 2500 3200 50  0001 C CNN
@@ -588,10 +588,10 @@ F 3 "~" H 2500 3200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 Servo10
+L Connector_Generic:Conn_01x03 S10
 U 1 1 619B7027
 P 3800 2750
-F 0 "Servo10" H 3880 2792 50  0000 L CNN
+F 0 "S10" H 3880 2792 50  0000 L CNN
 F 1 "Conn_01x03" H 3880 2701 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3800 2750 50  0001 C CNN
 F 3 "~" H 3800 2750 50  0001 C CNN
@@ -599,10 +599,10 @@ F 3 "~" H 3800 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 Servo9
+L Connector_Generic:Conn_01x03 S9
 U 1 1 619B702D
 P 2500 2750
-F 0 "Servo9" H 2600 2700 50  0000 C CNN
+F 0 "S9" H 2600 2700 50  0000 C CNN
 F 1 "Conn_01x03" H 2800 2800 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2500 2750 50  0001 C CNN
 F 3 "~" H 2500 2750 50  0001 C CNN
@@ -624,10 +624,10 @@ Wire Wire Line
 Wire Wire Line
 	2700 4150 2800 4150
 $Comp
-L Connector_Generic:Conn_01x03 Servo20
+L Connector_Generic:Conn_01x03 S20
 U 1 1 619D057A
 P 3800 4900
-F 0 "Servo20" H 3880 4942 50  0000 L CNN
+F 0 "S20" H 3880 4942 50  0000 L CNN
 F 1 "Conn_01x03" H 3880 4851 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3800 4900 50  0001 C CNN
 F 3 "~" H 3800 4900 50  0001 C CNN
@@ -635,10 +635,10 @@ F 3 "~" H 3800 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 Servo19
+L Connector_Generic:Conn_01x03 S19
 U 1 1 619D0580
 P 2500 4900
-F 0 "Servo19" H 2600 4850 50  0000 C CNN
+F 0 "S19" H 2600 4850 50  0000 C CNN
 F 1 "Conn_01x03" H 2800 4950 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2500 4900 50  0001 C CNN
 F 3 "~" H 2500 4900 50  0001 C CNN
@@ -646,10 +646,10 @@ F 3 "~" H 2500 4900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 Servo18
+L Connector_Generic:Conn_01x03 S18
 U 1 1 619D0586
 P 3800 4450
-F 0 "Servo18" H 3880 4492 50  0000 L CNN
+F 0 "S18" H 3880 4492 50  0000 L CNN
 F 1 "Conn_01x03" H 3880 4401 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3800 4450 50  0001 C CNN
 F 3 "~" H 3800 4450 50  0001 C CNN
@@ -657,10 +657,10 @@ F 3 "~" H 3800 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 Servo17
+L Connector_Generic:Conn_01x03 S17
 U 1 1 619D058C
 P 2500 4450
-F 0 "Servo17" H 2600 4400 50  0000 C CNN
+F 0 "S17" H 2600 4400 50  0000 C CNN
 F 1 "Conn_01x03" H 2800 4500 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2500 4450 50  0001 C CNN
 F 3 "~" H 2500 4450 50  0001 C CNN
@@ -668,10 +668,10 @@ F 3 "~" H 2500 4450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 Servo16
+L Connector_Generic:Conn_01x03 S16
 U 1 1 619D0592
 P 3800 4050
-F 0 "Servo16" H 3880 4092 50  0000 L CNN
+F 0 "S16" H 3880 4092 50  0000 L CNN
 F 1 "Conn_01x03" H 3880 4001 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3800 4050 50  0001 C CNN
 F 3 "~" H 3800 4050 50  0001 C CNN
@@ -681,10 +681,10 @@ $EndComp
 Wire Wire Line
 	2700 3750 2800 3750
 $Comp
-L Connector_Generic:Conn_01x03 Servo14
+L Connector_Generic:Conn_01x03 S14
 U 1 1 619D059A
 P 3800 3650
-F 0 "Servo14" H 3880 3692 50  0000 L CNN
+F 0 "S14" H 3880 3692 50  0000 L CNN
 F 1 "Conn_01x03" H 3880 3601 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3800 3650 50  0001 C CNN
 F 3 "~" H 3800 3650 50  0001 C CNN
@@ -692,10 +692,10 @@ F 3 "~" H 3800 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 Servo13
+L Connector_Generic:Conn_01x03 S13
 U 1 1 619D05A0
 P 2500 3650
-F 0 "Servo13" H 2600 3600 50  0000 C CNN
+F 0 "S13" H 2600 3600 50  0000 C CNN
 F 1 "Conn_01x03" H 2800 3700 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2500 3650 50  0001 C CNN
 F 3 "~" H 2500 3650 50  0001 C CNN
@@ -703,10 +703,10 @@ F 3 "~" H 2500 3650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 Servo15
+L Connector_Generic:Conn_01x03 S15
 U 1 1 619D05A6
 P 2500 4050
-F 0 "Servo15" H 2600 4000 50  0000 C CNN
+F 0 "S15" H 2600 4000 50  0000 C CNN
 F 1 "Conn_01x03" H 2800 4100 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2500 4050 50  0001 C CNN
 F 3 "~" H 2500 4050 50  0001 C CNN
@@ -722,10 +722,10 @@ Wire Wire Line
 Wire Wire Line
 	2700 5450 2800 5450
 $Comp
-L Connector_Generic:Conn_01x03 Servo24
+L Connector_Generic:Conn_01x03 S24
 U 1 1 619D05B4
 P 3800 5800
-F 0 "Servo24" H 3880 5842 50  0000 L CNN
+F 0 "S24" H 3880 5842 50  0000 L CNN
 F 1 "Conn_01x03" H 3880 5751 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3800 5800 50  0001 C CNN
 F 3 "~" H 3800 5800 50  0001 C CNN
@@ -733,10 +733,10 @@ F 3 "~" H 3800 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 Servo23
+L Connector_Generic:Conn_01x03 S23
 U 1 1 619D05BA
 P 2500 5800
-F 0 "Servo23" H 2600 5750 50  0000 C CNN
+F 0 "S23" H 2600 5750 50  0000 C CNN
 F 1 "Conn_01x03" H 2800 5850 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2500 5800 50  0001 C CNN
 F 3 "~" H 2500 5800 50  0001 C CNN
@@ -744,10 +744,10 @@ F 3 "~" H 2500 5800 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 Servo22
+L Connector_Generic:Conn_01x03 S22
 U 1 1 619D05C0
 P 3800 5350
-F 0 "Servo22" H 3880 5392 50  0000 L CNN
+F 0 "S22" H 3880 5392 50  0000 L CNN
 F 1 "Conn_01x03" H 3880 5301 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3800 5350 50  0001 C CNN
 F 3 "~" H 3800 5350 50  0001 C CNN
@@ -755,10 +755,10 @@ F 3 "~" H 3800 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 Servo21
+L Connector_Generic:Conn_01x03 S21
 U 1 1 619D05C6
 P 2500 5350
-F 0 "Servo21" H 2600 5300 50  0000 C CNN
+F 0 "S21" H 2600 5300 50  0000 C CNN
 F 1 "Conn_01x03" H 2800 5400 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2500 5350 50  0001 C CNN
 F 3 "~" H 2500 5350 50  0001 C CNN
@@ -776,10 +776,10 @@ Wire Wire Line
 Wire Wire Line
 	2700 6100 3600 6100
 $Comp
-L Connector_Generic:Conn_01x03 Servo28
+L Connector_Generic:Conn_01x03 S28
 U 1 1 619D97D5
 P 3800 6650
-F 0 "Servo28" H 3880 6692 50  0000 L CNN
+F 0 "S28" H 3880 6692 50  0000 L CNN
 F 1 "Conn_01x03" H 3880 6601 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3800 6650 50  0001 C CNN
 F 3 "~" H 3800 6650 50  0001 C CNN
@@ -787,10 +787,10 @@ F 3 "~" H 3800 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 Servo27
+L Connector_Generic:Conn_01x03 S27
 U 1 1 619D97DB
 P 2500 6650
-F 0 "Servo27" H 2600 6600 50  0000 C CNN
+F 0 "S27" H 2600 6600 50  0000 C CNN
 F 1 "Conn_01x03" H 2800 6700 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2500 6650 50  0001 C CNN
 F 3 "~" H 2500 6650 50  0001 C CNN
@@ -798,10 +798,10 @@ F 3 "~" H 2500 6650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 Servo26
+L Connector_Generic:Conn_01x03 S26
 U 1 1 619D97E1
 P 3800 6200
-F 0 "Servo26" H 3880 6242 50  0000 L CNN
+F 0 "S26" H 3880 6242 50  0000 L CNN
 F 1 "Conn_01x03" H 3880 6151 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3800 6200 50  0001 C CNN
 F 3 "~" H 3800 6200 50  0001 C CNN
@@ -809,10 +809,10 @@ F 3 "~" H 3800 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 Servo25
+L Connector_Generic:Conn_01x03 S25
 U 1 1 619D97E7
 P 2500 6200
-F 0 "Servo25" H 2600 6150 50  0000 C CNN
+F 0 "S25" H 2600 6150 50  0000 C CNN
 F 1 "Conn_01x03" H 2800 6250 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2500 6200 50  0001 C CNN
 F 3 "~" H 2500 6200 50  0001 C CNN
@@ -828,10 +828,10 @@ Wire Wire Line
 Wire Wire Line
 	2700 7250 2800 7250
 $Comp
-L Connector_Generic:Conn_01x03 Servo32
+L Connector_Generic:Conn_01x03 S32
 U 1 1 619F1FBF
 P 3800 7600
-F 0 "Servo32" H 3880 7642 50  0000 L CNN
+F 0 "S32" H 3880 7642 50  0000 L CNN
 F 1 "Conn_01x03" H 3880 7551 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3800 7600 50  0001 C CNN
 F 3 "~" H 3800 7600 50  0001 C CNN
@@ -839,10 +839,10 @@ F 3 "~" H 3800 7600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 Servo31
+L Connector_Generic:Conn_01x03 S31
 U 1 1 619F1FC5
 P 2500 7600
-F 0 "Servo31" H 2600 7550 50  0000 C CNN
+F 0 "S31" H 2600 7550 50  0000 C CNN
 F 1 "Conn_01x03" H 2800 7650 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2500 7600 50  0001 C CNN
 F 3 "~" H 2500 7600 50  0001 C CNN
@@ -850,10 +850,10 @@ F 3 "~" H 2500 7600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 Servo30
+L Connector_Generic:Conn_01x03 S30
 U 1 1 619F1FCB
 P 3800 7150
-F 0 "Servo30" H 3880 7192 50  0000 L CNN
+F 0 "S30" H 3880 7192 50  0000 L CNN
 F 1 "Conn_01x03" H 3880 7101 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3800 7150 50  0001 C CNN
 F 3 "~" H 3800 7150 50  0001 C CNN
@@ -861,10 +861,10 @@ F 3 "~" H 3800 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 Servo29
+L Connector_Generic:Conn_01x03 S29
 U 1 1 619F1FD1
 P 2500 7150
-F 0 "Servo29" H 2600 7100 50  0000 C CNN
+F 0 "S29" H 2600 7100 50  0000 C CNN
 F 1 "Conn_01x03" H 2800 7200 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2500 7150 50  0001 C CNN
 F 3 "~" H 2500 7150 50  0001 C CNN
